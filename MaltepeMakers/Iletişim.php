@@ -52,7 +52,7 @@ $(window).on('scroll', function () {
 
 <div class="content">
 <!-- InstanceBeginEditable name="content" -->
-Projelerimiz bomb has been planted.<!-- InstanceEndEditable --></div>
+<h1>İletişim</h1><!-- InstanceEndEditable --></div>
 
 
 <div id="id01" class="modal">

@@ -52,7 +52,7 @@ $(window).on('scroll', function () {
 
 <div class="content">
 <!-- InstanceBeginEditable name="content" -->
-Etkinliklerimiz >^3
+<h1>Etkinliklerimiz</h1>
 <!-- InstanceEndEditable --></div>
 
 

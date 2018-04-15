@@ -52,7 +52,7 @@ $(window).on('scroll', function () {
 
 <div class="content">
 <!-- InstanceBeginEditable name="content" -->
-Projelerimiz<!-- InstanceEndEditable --></div>
+<h1>Projelerimiz</h1><!-- InstanceEndEditable --></div>
 
 
 <div id="id01" class="modal">
