@@ -185,7 +185,12 @@ span.psw {
     to {transform: scale(1)}
 }
 
-/* Change styles for span and cancel button on extra small screens */
+
+
+
+
+
+/* RESPONSIVE */
 @media screen and (max-width: 300px) {
     span.psw {
        display: block;
@@ -194,4 +199,50 @@ span.psw {
     .cancelbtn {
        width: 100%;
     }
+}
+
+@media screen and (max-width: 987px){
+	.navbar{
+		height: 90px;	
+	}	
+}
+
+@media screen and (max-width: 536px){
+	.navbar{
+		height: 120px;	
+	}	
+	
+	.navbar.expand{
+		top: -140px;	
+	}
+}
+
+@media screen and (max-width: 386px){
+	.navbar{
+		height: 160px;		
+	}	
+	
+	.navbar.expand{
+		top: -200px;	
+	}
+}
+
+@media screen and (max-width: 284px){
+	.navbar{
+		height: 200px;		
+	}	
+	
+	.navbar.expand{
+		top: -240px;		
+	}
+}
+
+@media screen and (max-width: 267px){
+	.navbar{
+		height: 240px;		
+	}	
+	
+	.navbar.expand{
+		top: -280px;		
+	}
 }
