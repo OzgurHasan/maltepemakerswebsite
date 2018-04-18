@@ -74,6 +74,7 @@ $(window).on('scroll', function () {
       <label>
         <input type="checkbox" checked="checked" name="remember"> Beni hatırla
       </label>
+    
     </div>
 
     <div class="container" style="background-color:#f1f1f1">
