@@ -28,19 +28,19 @@ $(window).on('scroll', function () {
 </head>
 <body>
 <div class="navbar">
-<div class="nav"> <a href="index.php"><img class="navbuton" src="../images/MaltepeMakersLogo.png" width="140" height="48" alt="maltepemakersbuton"></a>
+<div class="nav"> <a href="../index.php"><img class="navbuton" src="../images/MaltepeMakersLogo.png" width="140" height="48" alt="maltepemakersbuton"></a>
 
-  <a href="index.php"><img class="navbuton" src="../images/Anasayfa.png" width="88" height="32" alt="anasayfabuton"></a>
+  <a href="../index.php"><img class="navbuton" src="../images/Anasayfa.png" width="88" height="32" alt="anasayfabuton"></a>
 
-  <a href="EtkinliklerKayıt.php"><img class="navbuton" src="../images/Etkinlikler Kayıt.png" width="124" height="32" alt="etkinliklerbuton"></a>
+  <a href="../EtkinliklerKayıt.php"><img class="navbuton" src="../images/Etkinlikler Kayıt.png" width="124" height="32" alt="etkinliklerbuton"></a>
 
-  <a href="Projelerimiz.php"><img class="navbuton" src="../images/Projelerimiz.png" width="88" height="32" alt="projelerimizbuton"></a>
+  <a href="../Projelerimiz.php"><img class="navbuton" src="../images/Projelerimiz.png" width="88" height="32" alt="projelerimizbuton"></a>
 
-  <a href="Blog.php"><img class="navbuton" src="../images/Blog.png" width="62" height="32" alt="blogbuton"></a>
+  <a href="../Blog.php"><img class="navbuton" src="../images/Blog.png" width="62" height="32" alt="blogbuton"></a>
 
-  <a href="Hakkımızda.php"><img class="navbuton" src="../images/Hakkımızda.png" width="80" height="32" alt="hakkımızdabuton"></a>
+  <a href="../Hakkımızda.php"><img class="navbuton" src="../images/Hakkımızda.png" width="80" height="32" alt="hakkımızdabuton"></a>
 
-  <a href="Iletişim.php"><img class="navbuton" src="../images/İletişim.png" width="63" height="32" alt="iletisimbuton"></a>
+  <a href="../Iletişim.php"><img class="navbuton" src="../images/İletişim.png" width="63" height="32" alt="iletisimbuton"></a>
 
   <a href="#"><img class="navbuton" src="../images/Üye Ol.png" width="60" height="30" alt="uyeolbuton"></a>
 
