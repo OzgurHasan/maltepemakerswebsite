@@ -54,13 +54,16 @@ $(window).on('scroll', function () {
 <img src="https://images-platform.99static.com/mImULfg9HaIKeA6m8q5CKRm8qzI=/500x500/top/smart/99designs-contests-attachments/4/4751/attachment_4751694" width="7%" class="logo"><img class="foto" src="https://www.w3schools.com/howto/img_avatar.png"></img></img>
 
 <div class="kriter">
- KRİTER
-<p> Barış Poyraz hariç herkes girebilir.</p>
-<p><h5>ÖZGÜR ASLI HOCA BU ŞEKİLDE BEĞENMEDİ PHOTOSHOP İLE TASARLAYIN DEDİ BİLGİN OLSUN SON İKİ DERS GEL</h5></p>
+<img src="../images/Kriterler.png" id="kriterbg">
+
+<p id="kriteryazi"> Barış Poyraz hariç herkes girebilir.</p>
+
 </div>
 
 <div class="bilgi">
-	ATÖLYE BİLGİSİ
+	<img src="../images/AtolyeBilgileri.png" id="bilgibg">
+    
+    <p id="bilgiyazi"> Barış Poyraz'ı kovma atölyesi.</p>
 </div>
 
 </div>
@@ -96,7 +99,7 @@ $(window).on('scroll', function () {
 
 
 
-<footer class="footer">
+<footer class="footer" style="position:absolute; bottom:0px; width: 100%;">
     <div class="container" id="sec4">
 
 <a href="https://tr-tr.facebook.com/maltepemakers/" target="_blank"><img class="social" src="../images/facebook.png" alt="facebookbuton" width="40" height="40"></a>
