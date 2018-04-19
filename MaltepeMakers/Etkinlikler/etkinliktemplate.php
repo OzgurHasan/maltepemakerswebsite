@@ -56,6 +56,8 @@ $(window).on('scroll', function () {
 <div class="kriter">
 <img src="../images/Kriterler.png" id="kriterbg">
 
+<h2 id="baslik">KRİTERLER</h2>
+
 <p id="kriteryazi"> Barış Poyraz hariç herkes girebilir.</p>
 
 </div>
@@ -63,8 +65,12 @@ $(window).on('scroll', function () {
 <div class="bilgi">
 	<img src="../images/AtolyeBilgileri.png" id="bilgibg">
     
+    <h2 id="baslik">ATÖLYE BİLGİSİ</h2>
+    
     <p id="bilgiyazi"> Barış Poyraz'ı kovma atölyesi.</p>
 </div>
+
+<button type="button" class="cancelbtn" onClick="document.getElementById('id01').style.display='block'">Etkinliğe kayıt ol</button>
 
 </div>
 

@@ -214,8 +214,15 @@ span.psw {
 }
 
 #kriteryazi{
-	top: 20px;
-	left: 20px;
+	top: 43px;
+	left: 10px;
+	position: absolute;
+	z-index: 3;	
+}
+
+#baslik{
+	top: 10px;
+	left: 10px;
 	position: absolute;
 	z-index: 3;	
 }
@@ -235,8 +242,8 @@ span.psw {
 }
 
 #bilgiyazi{
-	top: 20px;
-	left: 20px;
+	top: 43px;
+	left: 10px;
 	position: absolute;
 	z-index: 3;
 }
