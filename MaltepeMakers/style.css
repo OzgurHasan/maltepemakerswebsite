@@ -201,11 +201,12 @@ span.psw {
 .kriter{
 	width: 45%;
 	height: 182px;
-	background-color:#FF9D9D;
 	float: left;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
+	background-image: url(images/Kriterler.png);
+	background-repeat: no-repeat;
 }
 
 .bilgi{
