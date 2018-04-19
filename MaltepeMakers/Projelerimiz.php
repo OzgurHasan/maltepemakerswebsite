@@ -43,9 +43,9 @@ $(window).on('scroll', function () {
 
   <a href="Iletişim.php"><img class="navbuton" src="images/İletişim.png" width="63" height="32" alt="iletisimbuton"></a>
 
-  <a href="#"><img class="navbuton" src="images/Üye%20Ol.png" width="60" height="30" alt="uyeolbuton"></a>
+  <img class="navbuton" src="images/Üye%20Ol.png" width="60" height="30" alt="uyeolbuton" onClick="document.getElementById('id01').style.display='none'; document.getElementById('id02').style.display='block';">
 
-  <img class="navbuton" src="images/Oturum%20Aç.png" width="86" height="30" alt="oturumacbuton" onClick="document.getElementById('id01').style.display='block'">
+  <img class="navbuton" src="images/Oturum%20Aç.png" width="86" height="30" alt="oturumacbuton" onClick="document.getElementById('id01').style.display='block'; document.getElementById('id02').style.display='none';">
 </div>
 </div>
 
@@ -86,6 +86,42 @@ $(window).on('scroll', function () {
 
 
 
+<div id="id02" class="modal2">
+  
+  <form class="modal2-content animate" action="/action_page2.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+   
+    </div>
+
+    <div class="container2">
+      <label for="uname"><b>E-Mail Adresi</b></label>
+      <input type="text" placeholder="E-Mail adresinizi girin..." name="uname" required>
+
+      <label for="psw"><b>Şifre</b></label>
+      <input type="password" placeholder="Şifrenizi girin..." name="psw" required>
+	  
+	  <label for="psw-repeat"><b>Şifre Tekrar</b></label>
+      <input type="password" placeholder="Şifrenizi tekrar girin..." name="psw" required>
+        
+      <button type="submit">Üye Ol</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Beni hatırla
+      </label>
+	  
+	  <p>Bir hesap oluşturarak <a href="#">Hizmet Şartları'nı</a> kabul etmiş olursunuz.</p>
+	  
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">İptal</button>
+    </div>
+  </form>
+</div>
+
+
+
+
 <footer class="footer">
     <div class="container" id="sec4">
 
@@ -105,11 +141,13 @@ $(window).on('scroll', function () {
 <script>
 // Get the modal
 var modal = document.getElementById('id01');
+var modal2 = document.getElementById('id02');
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target == modal || event.target == modal2) {
         modal.style.display = "none";
+		modal2.style.display = "none";
     }
 }
 </script>
