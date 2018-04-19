@@ -51,7 +51,7 @@ $(window).on('scroll', function () {
 
 <div class="content">
 
-<img src="https://images-platform.99static.com/mImULfg9HaIKeA6m8q5CKRm8qzI=/500x500/top/smart/99designs-contests-attachments/4/4751/attachment_4751694" width="7%" class="logo"><img class="foto" src="https://www.w3schools.com/howto/img_avatar.png"></img></img>
+<img src="../images/logo.png" width="7%" class="logo"><img class="foto" src="https://www.w3schools.com/howto/img_avatar.png"></img></img>
 
 <div class="kriter">
 <img src="../images/Kriterler.png" id="kriterbg">
