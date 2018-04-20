@@ -165,7 +165,7 @@ Gereklilikler: <label for="gerekliliklist"><b>Barış Poyraz nefreti</b></label>
 
 
 
-<footer class="footer" style="position:absolute; bottom:0px; width: 100%;">
+<footer class="footer" style="position:absolute; bottom:0px; width: 100%; z-index: 5;">
     <div class="container" id="sec4">
 
 <a href="https://tr-tr.facebook.com/maltepemakers/" target="_blank"><img class="social" src="../images/facebook.png" alt="facebookbuton" width="40" height="40"></a>

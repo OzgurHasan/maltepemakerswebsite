@@ -51,7 +51,16 @@ html{
 	padding-right: 20px;
 	padding-bottom: 20px;
 	padding-top: 80px;
-	overflow: hidden; 
+	overflow: hidden;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-bottom-style:solid;
+	border-left-color:#9BAAC1;
+	border-right-color:#9BAAC1;
+	border-bottom-color:#9BAAC1;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
 }
 
 .container{
@@ -222,7 +231,6 @@ span.psw {
 	float: left;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	text-align: center;
 	position: relative;
 }
 
