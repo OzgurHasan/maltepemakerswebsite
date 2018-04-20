@@ -3,6 +3,7 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <meta charset="utf-8">
+<link rel="icon" href="images/MaltepeMakersLogo1.PNG">
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>Maltepe Makers - Etkinlikler</title>
 <!-- InstanceEndEditable -->
