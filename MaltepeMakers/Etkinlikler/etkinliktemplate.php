@@ -66,7 +66,11 @@ document.getElementById('logo').style.top=screen.width()/18;
 
 <h2 id="baslik">KRİTERLER</h2>
 
-<p id="kriteryazi"> Barış Poyraz hariç herkes girebilir.</p>
+<p id="kriteryazi">
+Yaş: <label for="atloyeyas"><b>7-70</b></label><br>
+Kontenjan: <label for="dolukont"><b>0</b>/</label><label for="tamkont"><b>15</b></label><br>
+Gereklilikler: <label for="gerekliliklist"><b>Barış Poyraz nefreti</b></label><br>
+</p>
 
 </div>
 
@@ -75,7 +79,9 @@ document.getElementById('logo').style.top=screen.width()/18;
     
     <h2 id="baslik">ATÖLYE BİLGİSİ</h2>
     
-    <p id="bilgiyazi"> Barış Poyraz'ı kovma atölyesi.</p>
+    <p id="bilgiyazi"><label for="atolyebilgi">Barış Poyraz'ı kovma atölyesi. Barış Poyraz olmayan ve okuma-yazma bilen herkesin katılımı serbesttir.</label><br>
+    Mentor: <label for="atolyementor"><b>[ÇOK GİZLİ BARIŞ POYRAZ DÜŞMANI]</b></label>
+   	</p>
 </div>
 
 <button type="button" class="cancelbtn" onClick="document.getElementById('id01').style.display='block'">Etkinliğe kayıt ol</button>
@@ -102,6 +108,8 @@ document.getElementById('logo').style.top=screen.width()/18;
       <label>
         <input type="checkbox" checked="checked" name="remember"> Beni hatırla
       </label>
+      
+      <p>Hesabınız yok mu? <a href="#" onClick="document.getElementById('id01').style.display='none'; document.getElementById('id02').style.display='block';">Üye Olun</a></p>
     </div>
 
     <div class="container" style="background-color:#f1f1f1">
@@ -121,6 +129,12 @@ document.getElementById('logo').style.top=screen.width()/18;
     </div>
 
     <div class="container2">
+      <label for="name"><b>İsim</b></label>
+      <input type="text" placeholder="İsminizi girin..." name="name" required>
+      
+      <label for="surename"><b>Soyisim</b></label>
+      <input type="text" placeholder="Soyisminizi girin..." name="surename" required>
+      
       <label for="uname"><b>E-Mail Adresi</b></label>
       <input type="text" placeholder="E-Mail adresinizi girin..." name="uname" required>
 
@@ -136,6 +150,8 @@ document.getElementById('logo').style.top=screen.width()/18;
       </label>
 	  
 	  <p>Bir hesap oluşturarak <a href="#">Hizmet Şartları'nı</a> kabul etmiş olursunuz.</p>
+      
+      <p>Zaten hesabınız var mı? <a href="#" onClick="document.getElementById('id02').style.display='none'; document.getElementById('id01').style.display='block';">Oturum Açın</a></p>
 	  
     </div>
 

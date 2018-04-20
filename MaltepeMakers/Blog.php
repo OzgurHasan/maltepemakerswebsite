@@ -57,7 +57,7 @@ $(window).on('scroll', function () {
 
 <div id="id01" class="modal">
   
-  <form class="modal-content animate" action="/action_page.php">
+  <form class="modal-content animate" action="/action_page1.php">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
    
@@ -74,7 +74,8 @@ $(window).on('scroll', function () {
       <label>
         <input type="checkbox" checked="checked" name="remember"> Beni hatırla
       </label>
-    
+      
+      <p>Hesabınız yok mu? <a href="#" onClick="document.getElementById('id01').style.display='none'; document.getElementById('id02').style.display='block';">Üye Olun</a></p>
     </div>
 
     <div class="container" style="background-color:#f1f1f1">
@@ -82,7 +83,6 @@ $(window).on('scroll', function () {
     </div>
   </form>
 </div>
-
 
 
 
@@ -95,6 +95,12 @@ $(window).on('scroll', function () {
     </div>
 
     <div class="container2">
+      <label for="name"><b>İsim</b></label>
+      <input type="text" placeholder="İsminizi girin..." name="name" required>
+      
+      <label for="surename"><b>Soyisim</b></label>
+      <input type="text" placeholder="Soyisminizi girin..." name="surename" required>
+      
       <label for="uname"><b>E-Mail Adresi</b></label>
       <input type="text" placeholder="E-Mail adresinizi girin..." name="uname" required>
 
@@ -110,6 +116,8 @@ $(window).on('scroll', function () {
       </label>
 	  
 	  <p>Bir hesap oluşturarak <a href="#">Hizmet Şartları'nı</a> kabul etmiş olursunuz.</p>
+      
+      <p>Zaten hesabınız var mı? <a href="#" onClick="document.getElementById('id02').style.display='none'; document.getElementById('id01').style.display='block';">Oturum Açın</a></p>
 	  
     </div>
 
