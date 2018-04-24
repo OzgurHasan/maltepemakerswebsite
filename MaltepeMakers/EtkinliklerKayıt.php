@@ -54,6 +54,27 @@ $(window).on('scroll', function () {
 <div class="content">
 <!-- InstanceBeginEditable name="content" -->
 <h1>Etkinliklerimiz</h1>
+
+<table border="1">
+	<tr>
+    	<th><b>Saat</b></th>
+		<th>1.Sınıf</th>
+        <th>2.Sınıf</th>
+        <th>3.Sınıf</th>
+	</tr>
+    <tr>
+    	<td>12</td>
+    </tr>
+    <tr>
+    	<td>13</td>
+    </tr>
+    <tr>
+    	<td>14</td>
+    </tr>
+    <tr>
+    	<td>15</td>
+    </tr>
+</table>
 <!-- InstanceEndEditable --></div>
 
 
