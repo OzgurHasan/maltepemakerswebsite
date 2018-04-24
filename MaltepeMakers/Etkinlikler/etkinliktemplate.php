@@ -92,7 +92,7 @@ Gereklilikler: <label for="gerekliliklist"><b>Barış Poyraz nefreti</b></label>
 
 <div id="id01" class="modal">
   
-  <form class="modal-content animate" action="/action_page1.php">
+  <form class="modal-content animate" action="/action_page.php">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
    
@@ -123,7 +123,7 @@ Gereklilikler: <label for="gerekliliklist"><b>Barış Poyraz nefreti</b></label>
 
 <div id="id02" class="modal2">
   
-  <form class="modal2-content animate" action="/action_page2.php">
+  <form class="modal2-content animate" action="/action_page.php">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
    
