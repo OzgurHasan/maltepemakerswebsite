@@ -184,6 +184,9 @@ Sed maximus elit mi, non feugiat purus euismod id. Donec lobortis laoreet mi ac 
       <label for="surename"><b>Soyisim</b></label>
       <input type="text" placeholder="Soyisminizi girin..." name="surename" required>
       
+      <label for="bday"><b>Doğum Tarihi</b></label><br />
+      <input type="date" name?"bday"required><br />
+      
       <label for="uname"><b>E-Mail Adresi</b></label>
       <input type="text" placeholder="E-Mail adresinizi girin..." name="uname" required>
 
