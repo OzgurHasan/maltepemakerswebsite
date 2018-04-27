@@ -4,12 +4,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <meta charset="utf-8">
 <link rel="icon" href="images/MaltepeMakersLogo1.PNG">
+<meta name="viewport" content="width=device-width">
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>Maltepe Makers - Etkinlikler</title>
 <!-- InstanceEndEditable -->
 <link rel="stylesheet" type="text/css" href="style.css">
-
-    <script>
+<script src="js/imageMapResizer.min.js"></script>
+<script>
 x = 0;
 $(window).on('scroll', function () {
     if ($(this).scrollTop() > x) {
@@ -53,28 +54,33 @@ $(window).on('scroll', function () {
 
 <div class="content">
 <!-- InstanceBeginEditable name="content" -->
-<h1>Etkinliklerimiz</h1>
 
-<table border="1">
-	<tr>
-    	<th><b>Saat</b></th>
-		<th>1.Sınıf</th>
-        <th>2.Sınıf</th>
-        <th>3.Sınıf</th>
-	</tr>
-    <tr>
-    	<td>12</td>
-    </tr>
-    <tr>
-    	<td>13</td>
-    </tr>
-    <tr>
-    	<td>14</td>
-    </tr>
-    <tr>
-    	<td>15</td>
-    </tr>
-</table>
+<!-- Karıştır mutfakta -->
+
+<h1 align="center">Etkinliklerimiz</h1>
+<img name="Çarşamba1Plan" src="images/Çarşamba1Plan.png" width="2748" height="3639" id="Çarşamba1Plan" usemap="#Çarşamba1Plan" alt="" /><map name="Çarşamba1Plan" id="Çarşamba1Plan">
+<area class="etk" shape="rect" coords="1680,3006,2718,3460" href="Etkinlikler/etkinliktemplate.php" title="VEX IQ ile STEM+A Robotik Kodlama" alt="VEX IQ ile STEM+A Robotik Kodlama" />
+<area shape="rect" coords="516,3006,1616,3460" href="Etkinlikler/etkinliktemplate.php" title="VEX IQ ile STEM+A Robotik Kodlama" alt="VEX IQ ile STEM+A Robotik Kodlama" />
+<area shape="rect" coords="1680,2558,2222,3006" href="Etkinlikler/etkinliktemplate.php" title="NetLogo Bilimsel Simülasyona Giriş" alt="NetLogo Bilimsel Simülasyona Giriş" />
+<area shape="rect" coords="516,2558,1616,3006" href="Etkinlikler/etkinliktemplate.php" title="NetLogo Bilimsel Simülasyona Giriş" alt="NetLogo Bilimsel Simülasyona Giriş" />
+<area shape="rect" coords="1680,2094,2718,2558" href="Etkinlikler/etkinliktemplate.php" title="Bluedinio" alt="Bluedinio" />
+<area shape="rect" coords="516,2094,1616,2558" href="Etkinlikler/etkinliktemplate.php" title="Sumo Robotu Atölyesi" alt="Sumo Robotu Atölyesi" />
+<area shape="rect" coords="1680,1640,2718,2094" href="Etkinlikler/etkinliktemplate.php" title="Arduino ile Python Atölyesi" alt="Arduino ile Python Atölyesi" />
+<area shape="rect" coords="516,1640,1616,2094" href="Etkinlikler/etkinliktemplate.php" title="Scratch ile Oyunumu Programlıyorum" alt="Scratch ile Oyunumu Programlıyorum" />
+<area shape="rect" coords="2222,1182,2718,1640" href="Etkinlikler/etkinliktemplate.php" title="Kendi Logomu Tasarlıyorum" alt="Kendi Logomu Tasarlıyorum" />
+<area shape="rect" coords="1680,1182,2222,1640" href="Etkinlikler/etkinliktemplate.php" title="Giyilebilir Teknoloji Atölyesi" alt="Giyilebilir Teknoloji Atölyesi" />
+<area shape="rect" coords="516,1182,1616,1640" href="Etkinlikler/etkinliktemplate.php" title="Siber Uzayda Hayatta Kalmak" alt="Siber Uzayda Hayatta Kalmak" />
+</map>
+
+
+<script>
+
+	$('map').imageMapResize();
+
+</script>
+
+
+
 <!-- InstanceEndEditable --></div>
 
 

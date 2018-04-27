@@ -4,12 +4,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <meta charset="utf-8">
 <link rel="icon" href="../images/MaltepeMakersLogo1.PNG">
+<meta name="viewport" content="width=device-width">
 <!-- TemplateBeginEditable name="doctitle" -->
 <title>Maltepe Makers - Anasayfa</title>
 <!-- TemplateEndEditable -->
 <link rel="stylesheet" type="text/css" href="../style.css">
-
-    <script>
+<script src="../js/imageMapResizer.min.js"></script>
+<script>
 x = 0;
 $(window).on('scroll', function () {
     if ($(this).scrollTop() > x) {

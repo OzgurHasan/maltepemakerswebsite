@@ -27,6 +27,34 @@ body{
 	background-color: #DFE8F9;
 }
 
+table, td, th{
+	border: 1px solid  black;
+}
+
+td, th, tr{
+	height: auto;
+	width: 20%;
+}
+
+tr{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+
+table{
+	border-collapse: collapse;
+	width: 80%;
+	margin: 0 auto;	
+}
+
+.tarih{
+	width: 30%;
+	background-color:#FF8040;
+	margin: 0 auto;	
+	text-align: center;
+}
+
 html{
 	font-family: "Trebuchet MS", "Lucida Grande","Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;	
 }
@@ -61,6 +89,19 @@ html{
 	border-left-width: 2px;
 	border-right-width: 2px;
 	border-bottom-width: 2px;
+}
+
+#Çarşamba1Plan{
+	width: 70%;	
+	height: auto;
+	margin: 0 auto;
+	display: table;
+}
+
+#plan{
+	width: 70%;
+	margin: 0 auto;
+	display: block;
 }
 
 .container{
@@ -273,6 +314,13 @@ span.psw {
 	position: absolute;
 	z-index: 3;
 }
+
+.tablesaat{
+	padding-top: 3px;
+	padding-bottom: 3px;	
+}
+
+
 
 @-webkit-keyframes animatezoom {
     from {opacity: 0.0;} 
