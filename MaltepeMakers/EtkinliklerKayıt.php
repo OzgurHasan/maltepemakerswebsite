@@ -59,7 +59,7 @@ $(window).on('scroll', function () {
 
 <h1 align="center">Etkinliklerimiz</h1>
 <img name="Çarşamba1Plan" src="images/Çarşamba1Plan.png" width="2748" height="3639" id="Çarşamba1Plan" usemap="#Çarşamba1Plan" alt="" /><map name="Çarşamba1Plan" id="Çarşamba1Plan">
-<area class="etk" shape="rect" coords="1680,3006,2718,3460" href="Etkinlikler/etkinliktemplate.php" title="VEX IQ ile STEM+A Robotik Kodlama" alt="VEX IQ ile STEM+A Robotik Kodlama" />
+<area shape="rect" coords="1680,3006,2718,3460" href="Etkinlikler/etkinliktemplate.php" title="VEX IQ ile STEM+A Robotik Kodlama" alt="VEX IQ ile STEM+A Robotik Kodlama" />
 <area shape="rect" coords="516,3006,1616,3460" href="Etkinlikler/etkinliktemplate.php" title="VEX IQ ile STEM+A Robotik Kodlama" alt="VEX IQ ile STEM+A Robotik Kodlama" />
 <area shape="rect" coords="1680,2558,2222,3006" href="Etkinlikler/etkinliktemplate.php" title="NetLogo Bilimsel Simülasyona Giriş" alt="NetLogo Bilimsel Simülasyona Giriş" />
 <area shape="rect" coords="516,2558,1616,3006" href="Etkinlikler/etkinliktemplate.php" title="NetLogo Bilimsel Simülasyona Giriş" alt="NetLogo Bilimsel Simülasyona Giriş" />
